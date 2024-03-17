@@ -76,7 +76,7 @@ class LOAD_MODEL:
         return cls.model
 
 
-@dispatcher.message_handler()
+
 @dispatcher.message_handler()
 async def llm(message: types.Message):
     """
